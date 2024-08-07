@@ -13,11 +13,13 @@ const ContactList = () => {
   );
 
   return (
-    <ul className={css.ul}>
-      {visibleContacts.map((contact) => (
-        <Contact key={contact.id} {...contact} />
-      ))}
-    </ul>
+    <div className={css.div}>
+      <ul className={css.ul}>
+        {visibleContacts.map((contact) => (
+          <Contact key={contact.id} {...contact} />
+        ))}
+      </ul>
+    </div>
   );
 };
 
