@@ -27,23 +27,27 @@ const ContactForm = () => {
   return (
     <div className={css.div}>
       <form className={css.form} onSubmit={handleSubmit}>
-        <label>
+        <label className={css.label}>
           Name
           <input
+            className={css.input}
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
         </label>
-        <label>
+        <label className={css.label}>
           Number
           <input
+            className={css.input}
             type="text"
             value={number}
             onChange={(e) => setNumber(e.target.value)}
           />
         </label>
-        <button type="submit">Add contact</button>
+        <button className={css.btn} type="submit">
+          Add contact
+        </button>
       </form>
     </div>
   );

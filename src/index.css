@@ -16,7 +16,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #ffffff;
   text-transform: capitalize;
 }
 h3 {
@@ -34,6 +34,6 @@ p {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #004239;
 }

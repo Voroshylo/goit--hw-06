@@ -10,7 +10,12 @@ const Contact = ({ id, name, number }) => {
       <ul className={css.ul}>
         <li className={css.li}>
           {name}: {number}
-          <button onClick={() => dispatch(deleteContact(id))}>Delete</button>
+          <button
+            className={css.btn}
+            onClick={() => dispatch(deleteContact(id))}
+          >
+            Delete
+          </button>
         </li>
       </ul>
     </div>
