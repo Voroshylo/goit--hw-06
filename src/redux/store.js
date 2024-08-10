@@ -7,7 +7,7 @@ import filtersReducer from "./filtersSlice";
 const persistConfig = {
   key: "contacts",
   storage,
-  whitelist: ["items"],
+  whitelist: ["item"],
 };
 
 const persistedContactsReducer = persistReducer(persistConfig, contactsReducer);
